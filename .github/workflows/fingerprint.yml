@@ -7,17 +7,17 @@ on:
 
 jobs:
   generate-diagram:
-   
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Generate codebase diagram
-        uses: githubocto/repo-visualizer
+        uses: githubocto/repo-visualizer@v0.6.0
         with:
           output-format: svg  # You can use other formats like png, jpg, pdf, etc.
-          output-filename: fingerprint.svg
+          output-filename: diagram.svg
           languages: 'all'    # Use 'all' for all supported languages
 
       - name: Commit diagram
