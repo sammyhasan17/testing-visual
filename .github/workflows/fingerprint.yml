@@ -17,7 +17,7 @@ jobs:
         uses: githubocto/repo-visualizer
         with:
           output-format: svg  # You can use other formats like png, jpg, pdf, etc.
-          output-filename: diagram.svg
+          output-filename: fingerprint.svg
           languages: 'all'    # Use 'all' for all supported languages
 
       - name: Commit diagram
