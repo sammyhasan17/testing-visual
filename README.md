@@ -2,4 +2,4 @@
 
 bla blah blah
 
-![Visualization of the codebase](./fingerprint.svg)
+![Visualization of the codebase](./diagram.svg)
