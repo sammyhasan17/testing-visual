@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-diagram:
-    runs-on: ubuntu-latest
+   
 
     steps:
       - name: Checkout code
